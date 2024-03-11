@@ -11,6 +11,7 @@
 		FADB2AFB2B99411E00C24723 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB2AFA2B99411E00C24723 /* ContentView.swift */; };
 		FADB2AFD2B99411F00C24723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB2AFC2B99411F00C24723 /* Assets.xcassets */; };
 		FADB2B012B99411F00C24723 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB2B002B99411F00C24723 /* Preview Assets.xcassets */; };
+		FADB2B0A2B9F777800C24723 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB2B092B9F777800C24723 /* MetalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FADB2AFC2B99411F00C24723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADB2AFE2B99411F00C24723 /* ch3renderPipeline.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ch3renderPipeline.entitlements; sourceTree = "<group>"; };
 		FADB2B002B99411F00C24723 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FADB2B092B9F777800C24723 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				FADB2AF82B99411E00C24723 /* ch3renderPipelineApp.swift */,
+				FADB2B092B9F777800C24723 /* MetalView.swift */,
 				FADB2AFA2B99411E00C24723 /* ContentView.swift */,
 				FADB2AFC2B99411F00C24723 /* Assets.xcassets */,
 				FADB2AFE2B99411F00C24723 /* ch3renderPipeline.entitlements */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADB2B0A2B9F777800C24723 /* MetalView.swift in Sources */,
 				FADB2AFB2B99411E00C24723 /* ContentView.swift in Sources */,
 				FADB2AF92B99411E00C24723 /* ch3renderPipelineApp.swift in Sources */,
 			);
